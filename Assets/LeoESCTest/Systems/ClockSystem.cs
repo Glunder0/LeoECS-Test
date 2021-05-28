@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace LeoESCTest.Systems
 {
+    /// <summary>
+    /// Updates clock texts with remaining time
+    /// </summary>
     public class ClockSystem : IEcsRunSystem
     {
         private GameStateComponent _gameState;

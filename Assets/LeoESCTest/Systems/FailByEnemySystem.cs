@@ -5,6 +5,10 @@ using Leopotam.Ecs;
 
 namespace LeoESCTest.Systems
 {
+    /// <summary>
+    /// Sets <see cref="GameState"/> to <see cref="GameState.RoundFailed"/> if enemy passes position
+    /// <see cref="GameSettings.FailByEnemyLine"/>
+    /// </summary>
     public class FailByEnemySystem : IEcsRunSystem
     {
         private GameStateComponent _gameState;

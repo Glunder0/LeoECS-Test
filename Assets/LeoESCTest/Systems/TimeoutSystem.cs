@@ -5,6 +5,10 @@ using UnityEngine;
 
 namespace LeoESCTest.Systems
 {
+    /// <summary>
+    /// Sets <see cref="GameState"/> to <see cref="GameState.RoundCompleted"/> if elapsed time from the start
+    /// of the game exceeds <see cref="GameSettings.TimeoutTime"/>
+    /// </summary>
     public class TimeoutSystem : IEcsRunSystem
     {
         private GameStateComponent _gameState;

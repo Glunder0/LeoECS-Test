@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace LeoESCTest.Systems
 {
+    /// <summary>
+    /// Explodes explosive entities
+    /// </summary>
     public class ContactExplosionSystem : IEcsRunSystem
     {
         private ExplosionSettings _settings;
