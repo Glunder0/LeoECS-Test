@@ -37,7 +37,7 @@ namespace LeoESCTest.UnityComponents
         {
             var offset = Vector3.Lerp(_minOffset, _maxOffset, Random.value);
 
-            _textTransform.DOMove(offset, _lifetime).SetEase(Ease.Linear);
+            _textTransform.DOLocalMove(offset, _lifetime).SetEase(Ease.Linear);
             _text.DOFade(0.0f, _lifetime).SetEase(Ease.InQuad).OnComplete(() => Destroy(gameObject));
         }
 

@@ -217,5 +217,5 @@ MonoBehaviour:
   _textTransform: {fileID: 2053884003}
   _text: {fileID: 2053884004}
   _lifetime: 1
-  _minOffset: {x: -0.1, y: 0.5, z: 10}
-  _maxOffset: {x: 0.1, y: 0.5, z: 10}
+  _minOffset: {x: -1, y: 8, z: 10}
+  _maxOffset: {x: 1, y: 8, z: 10}
